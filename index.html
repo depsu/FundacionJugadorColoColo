@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundación Juan Gonzalo Lorca</title>
+
+
+
+    <!--estilos globales css-->
+    <link rel="shortcut icon" href="/logonavsvg.svg" />
+
+    <!-- <link rel="stylesheet" href="/librerias/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="/css/global/classtocss_apply.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+
+    <!--estilos pagina home css-->
+    <link rel="stylesheet" href="/css/home.css">
+
+
+
+
+    <!--etiquetas para splide carrusel-->
+    <link rel="stylesheet" href="/librerias/splide/splide.min.css">
+    <script src="/librerias/splide/splide.min.js"></script>
+    <!--fin-->
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: #ffffff !important;">
+        <div class="container">
+            <a class="navbar-brand py-0" href="/"><img class="logo-nav" width="180px" src="/logonavsvg.svg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/nosotros">Nosotros</a>
+                    </li>
+              
+               
+                    <li class="nav-item nav--reservaTuHora">
+                        <a class="nav-link " href="/reserva">Reserva tu hora</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="background-color: #F8F9FD;">
+        <div class="banner container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/banner1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/banner3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/banner5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="d-grid">
+        <section class="seccion-textos-bienvenida d-flex order-sm-1 order-2" style="background-color:#F8F9FD;">
+            <div class="text__bienvenido-a-casperia container">
+                <h1 class="text-center">
+                    Fundación Juan Gonzalo Lorca
+                </h1>
+                <div class="text-justify pt-5">
+
+                    <p>&iexcl;Bienvenidos a Fundación Juan Gonzalo Lorca!</p>
+                    <p>Somos una fundaci&oacute;n comprometida con el cambio. Impulsamos la calidad de vida de
+                        ni&ntilde;as, ni&ntilde;os y j&oacute;venes vulnerables a trav&eacute;s del deporte, la
+                        educaci&oacute;n y la salud. Creemos en la inclusi&oacute;n, la equidad y la igualdad de
+                        g&eacute;nero. Queremos ser referentes en la transformaci&oacute;n social para la infancia y la
+                        juventud. Nuestro equipo valora el trabajo en equipo, la ambici&oacute;n, el respeto, el
+                        esfuerzo y la humildad.</p>
+                    <p>&iexcl;Explora nuestras iniciativas! &Uacute;nete a nosotros para un futuro m&aacute;s brillante
+                        y justo para todos.</p>
+                </div>
+                <a class="buttom-primary float-end mt-5 mb-5" href="/nosotros">Leer más</a>
+            </div>
+        </section class="seccion-textos-bienvenida">
+
+        <section class="container especialidades order-sm-1 order-1">
+            <h2 class="titulo">Nosotros</h2>
+            <img class="centrar subrayado" src="/imagenes/subrayado.png">
+
+            <div style="padding-top:3em;">
+                <div class="row">
+                    <div id="card-especialidad" class=" col-lg-4 col-12 card-especialidad ">
+                        <div id="card-fonoaudiologia" class="background-card card-fonoaudiologia">
+                            <div class="contenedor-texto-especialidad">
+                                <span>Misión</span>
+                            </div>
+                            <div class="contenedor-icono-especialidad">
+                                <img class="mw-100" src="/imagenes/home/icono-fonoaudilogia.png" alt="Fonoaudiología">
+                            </div>
+                            <img id="descripcion-especialidad-flecha3" style="display:none;    filter: invert(55%) sepia(47%) saturate(741%) hue-rotate(115deg) brightness(90%) contrast(80%);"
+                                class="especialidades__flecha" src="/imagenes/home/flecha-3.png">
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-12 card-especialidad ">
+                        <div id="card-terapia" class="background-card card-terapia">
+                            <div class="contenedor-texto-especialidad">
+                                <span>Visión</span>
+                            </div>
+                            <div class="contenedor-icono-especialidad">
+                                <img class="mw-100 d-none" src="/imagenes/home/icono-terapia.png" alt="Terapia">
+                            </div>
+                            <img id="descripcion-especialidad-flecha2" style="display:none"
+                                class="especialidades__flecha" src="/imagenes/home/flecha-2.png">
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-4 col-12 card-especialidad ">
+                        <div id="card-psicologia" class="background-card card-psicologia" style="background-color: #7206B7;">
+                            <div class="contenedor-texto-especialidad">
+                                <span>Valores</span>
+                            </div>
+                            <div class="contenedor-icono-especialidad">
+                                <img class="mw-100 d-none" src="/imagenes/home/icono-psicologia.png" alt="Psicología">
+                            </div>
+                            <img id="descripcion-especialidad-flecha" class="especialidades__flecha"
+                                src="/imagenes/home/flecha-1.png">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="descripciones-especialidades">
+                <div id="descripcion-especialidad">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <img class=" centra imagen-especialidad" src="imagenes/home/galeria/6.png" alt="">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 informacion-especialidad">
+                            <h2> <span style="color:#7206B7">Valores</span></h2>
+                            <p>
+                                En la Fundación Juan Gonzalo Lorca creemos firmemente en el trabajo en equipo, la
+                                ambición, el respeto, el esfuerzo y la humildad. Estos valores nos guían en nuestra
+                                labor de promover el cambio y la transformación social para la infancia y la juventud.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="descripcion-especialidad2" style="display:none;">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <img class=" centrar imagen-especialidad" src="imagenes/home/galeria/4.png" alt="">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 informacion-especialidad">
+                            <h2>
+                                <span style="color:#08ACE3">Visión</span>
+                            </h2>
+                            <p>La Fundación Juan Gonzalo Lorca tiene el compromiso de ser la fundación deportiva de
+                                referencia por su contribución social en el mundo de la infancia y la juventud. Para
+                                ello, nos basamos en los siguientes principios:</p>
+                            <ul>
+                                <li><strong>Trabajo en equipo:</strong> Trabajamos de forma colaborativa con otras
+                                    organizaciones y comunidades para lograr un impacto mayor.</li>
+                                <li><strong>Ambición:</strong> Nos esforzamos por alcanzar la excelencia en todo lo que
+                                    hacemos, y estamos siempre buscando nuevas formas de mejorar nuestro trabajo.</li>
+                                <li><strong>Respeto:</strong> Respetamos a todos los niños, niñas y jóvenes,
+                                    independientemente de su origen, creencias o circunstancias.</li>
+                                <li><strong>Esfuerzo:</strong> Estamos comprometidos a trabajar duro para lograr
+                                    nuestros objetivos, y estamos dispuestos a hacer sacrificios para conseguirlos.</li>
+                                <li><strong>Humildad:</strong> Reconocemos que no podemos lograr nuestros objetivos
+                                    solos, y estamos agradecidos por las oportunidades que tenemos.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="descripcion-especialidad3" style="display: none;">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="centrar imagen-especialidad" src="/imagenes/home/galeria/7.png" alt="">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 informacion-especialidad">
+                            <h2><span style="color:#00af4c">Misión</span></h2>
+                          
+                            <p>La Fundación Juan Gonzalo Lorca trabaja para mejorar la vida de los niños, niñas y
+                                jóvenes vulnerables a través de la educación, la salud y el deporte.</p>
+                            <p>La Fundación cree que estas tres áreas son esenciales para el desarrollo integral de los
+                                niños y jóvenes, y que pueden ayudar a promover la inclusión social y la equidad.</p>
+                            <p>En concreto, la Fundación ofrece las siguientes actividades:</p>
+                            <ul>
+                                <li><strong>Educación:</strong> Becas, programas de refuerzo escolar y apoyo a la
+                                    inserción laboral.</li>
+                                <li><strong>Salud:</strong> Programas de salud preventiva, atención médica de calidad y
+                                    apoyo a las familias.</li>
+                                <li><strong>Deporte:</strong> Programas deportivos inclusivos y actividades de
+                                    recreación.</li>
+                            </ul>
+                            <p>La Fundación está comprometida con la igualdad y la diversidad, y cree que todos los
+                                niños y jóvenes merecen tener las mismas oportunidades para alcanzar su máximo
+                                potencial.</p>
+
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+
+
+    <!--Formulario de contacto-->
+    <a name="contacto"></a>
+    <section class="formulario">
+        <form action="contacto@fundacionjuangonzalolorca.com" method="POST" class="container-form">
+            <h2 class="titulo">Te contactamos</h2>
+            <img class="centrar subrayado" src="/imagenes/subrayado.png" style="padding-bottom:1em;">
+
+            <form action="#" class="form-contact" method="post" tabindex="1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <label for="">Nombre</label>
+                            <input type="text" class="form-contact-input" name="Nombre"
+                                placeholder="Ej: Nombre Apellido" required />
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <label for="">Teléfono</label>
+                            <input type="tel" class="form-contact-input" name="Teléfono"
+                                placeholder="Ej: +56 900000000" />
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <label for="">Correo</label>
+                            <input type="email" class="form-contact-input" name="Correo"
+                                placeholder="Ej: correo@mail.com" required />
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <label for="">Intereses</label>
+
+                            <select class="form-select" id="form-motivo" name="form-motivo">
+                                <option value="">Seleccione</option>
+                                <option value="Fonoaudiología">Deportivo</option>
+                                <option value="Terapia-Ocupacional">Ayuda Social</option>
+                                <option value="Psicología">Ambos</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-12">
+                            <button type="submit" class="buttom-primary">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </form>
+    </section>
+
+    <!--Nuestros especialistas-->
+
+    <!-- <section class="especialistas container">
+        <h2 class="titulo">Nuestros Especialistas</h2>
+        <img class="centrar subrayado" src="/imagenes/subrayado.png">
+        <p class="subtitulo">Nuestros profesionales están comprometidos a realizar su trabajo con la mayor competencia
+            profesional y humana. </p>
+        <div class="splide splide-especialistas">
+            <div class="splide__track">
+                <ul class="splide__list">
+
+                    <li class="splide__slide">
+                        <a href="/profesional-1">
+                            <div class="contenedor-card-especialista">
+                                <div class="ola">
+                                    <img src="/imagenes/home/ola-nuestros-especialistas.png" alt="ola">
+                                </div>
+                                <div class="ola-texto">
+                                    <p class="nombre-apellido-texto ">
+                                        <b>Valerie García Ahumada</b>
+                                    </p>
+                                    <p class="especialidad-texto">
+                                        Fonoaudióloga </p>
+                                </div>
+                                <img src="/imagenes/profesional/Profesional/1.png">
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="splide__slide">
+                        <a href="/profesional-4">
+                            <div class="ola-texto">
+                                <p class="nombre-apellido-texto">
+                                    <b>Robinson Roa</b>
+                                </p>
+                                <p class="especialidad-texto">
+                                    Psicólogo</p>
+                            </div>
+                            <div class="contenedor-card-especialista">
+                                <img src="/imagenes/profesional/Profesional/2.png">
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="splide__slide">
+                        <a href="/profesional-2">
+                            <div class="ola-texto">
+                                <p class="nombre-apellido-texto">
+                                    <b>Deborah López</b>
+                                </p>
+                                <p class="especialidad-texto">
+                                    Fonoaudióloga</p>
+                            </div>
+                            <div class="contenedor-card-especialista">
+                                <img src="/imagenes/profesional/Profesional/3.png">
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="splide__slide">
+                        <a href="/profesional-3">
+                            <div class="ola-texto">
+                                <p class="nombre-apellido-texto">
+                                    <b>Solange Cruz</b>
+                                </p>
+                                <p class="especialidad-texto">
+                                    Terapeuta Ocupacional</p>
+                            </div>
+                            <div class="contenedor-card-especialista">
+                                <img src="/imagenes/profesional/Profesional/4.png">
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="splide__slide">
+                        <a href="/profesional-5">
+                            <div class="ola-texto">
+                                <p class="nombre-apellido-texto">
+                                    <b>Camila Silva</b>
+                                </p>
+                                <p class="especialidad-texto">
+                                    Terapeuta Ocupacional</p>
+                            </div>
+                            <div class="contenedor-card-especialista">
+                                <img src="/imagenes/profesional/Profesional/5.png">
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="splide__slide">
+                        <a href="/profesional-6">
+                            <div class="ola-texto">
+                                <p class="nombre-apellido-texto">
+                                    <b>Alejandro Caneppa</b>
+                                </p>
+                                <p class="especialidad-texto">
+                                    Psicólogo</p>
+                            </div>
+                            <div class="contenedor-card-especialista">
+                                <img src="/imagenes/profesional/Profesional/6.png">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="splide__slide">
+                        <a href="/profesional-7">
+                            <div class="ola-texto">
+                                <p class="nombre-apellido-texto">
+                                    <b>Camila García Ahumada</b>
+                                </p>
+                                <p class="especialidad-texto">
+                                    Fonoaudióloga</p>
+                            </div>
+                            <div class="contenedor-card-especialista">
+                                <img src="/imagenes/profesional/Profesional/7.png">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="splide__slide">
+                        <a href="/profesional-8">
+                            <div class="ola-texto">
+                                <p class="nombre-apellido-texto">
+                                    <b>Javiera Fernández</b>
+                                </p>
+                                <p class="especialidad-texto">
+                                    Fonoaudióloga</p>
+                            </div>
+                            <div class="contenedor-card-especialista">
+                                <img src="/imagenes/profesional/Profesional/8.png">
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section> -->
+
+    <!--Instagram-->
+    <section class="instagram container">
+        <h2 class="titulo">Galería de imágenes</h2>
+        <img class="centrar subrayado" src="/imagenes/subrayado.png" style="padding-bottom:2em;">
+        <div class="row gx-3 gy-3 justify-content-center">
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a> <img src="/imagenes/home/galeria/1.png" alt="Fundación Lorca"></a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a> <img src="/imagenes/home/galeria/2.png" alt="Fundación Lorca"></a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a> <img src="/imagenes/home/galeria/3.png" alt="Fundación Lorca"></a>
+            </div>
+
+            <!--otras 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a> <img src="/imagenes/home/galeria/4.png" alt="Fundación Lorca"></a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a> <img src="/imagenes/home/galeria/5.png" alt="Fundación Lorca"></a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a> <img src="/imagenes/home/galeria/6.png" alt="Fundación Lorca"></a>
+            </div>
+            <!--otras 3 -->
+             <div class="col-lg-4 col-md-6 col-sm-12">
+                <a> <img src="/imagenes/home/galeria/7.png" alt="Fundación Lorca"></a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a> <img src="/imagenes/home/galeria/8.png" alt="Fundación Lorca"></a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a> <img src="/imagenes/home/galeria/9.png" alt="Fundación Lorca"></a>
+
+        </div>
+    </section>
+
+    <!--planes de atencion
+    <section class="planes-de-atencion container">-->
+
+
+    <!--Preguntas frecuentes-->
+
+    <section class="preguntas-frecuentes container">
+        <h2 class="titulo">Preguntas frecuentes</h2>
+        <img class="centrar subrayado" src="/imagenes/subrayado.png">
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        ¿Quiénes somos?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">La Fundación Juan Gonzalo Lorca tiene el compromiso de ser la fundación deportiva de
+                        referencia por su contribución social en el mundo de la infancia y la juventud.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        ¿Cuál es nuestra misión?
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">La Fundación Juan Gonzalo Lorca trabaja para mejorar la vida de los niños, niñas y
+                        jóvenes vulnerables a través de la educación, la salud y el deporte.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        ¿Nuestro horario?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">lunes a sabado 8:30 a 18:00 hrs
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="redes-sociales">
+            <div class="contenedor-imagenes">
+                <!-- <div>
+                    <a href=""><img src="/imagenes/footer-facebook.png" alt="facebook"></a>
+                </div> -->
+                <div>
+                    <a href="https://www.instagram.com/fundacion_juangonzalolorca"><img src="/imagenes/footer-instagram.png"
+                            alt="instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="informacion">
+            <div class="imagen-y-horario container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-8 col-sm-12 imagen-informacion">
+                        <div class="contendor-imagen-informacion">
+                            <img class="mw-100" src="/footerlogoblanco.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 horario ">
+
+                        <p class="contenedor-texto-llamada">
+                            <span style="display: inline-block;
+                            font-weight: 700;
+                            padding-bottom: 7px;">
+                                Horario de Atención
+                            </span><br>
+                            lunes a sabado 8:30 a 18:00 hrs<br>
+                           
+                            Domingo: cerrado
+                        </p>
+
+                        <div class="contenedor-telefono">
+                            <img src="/imagenes/footer-llamada.png" alt="llamada">
+                            <span class="telefono">
+                                (+569) 32325496<br>
+                            </span>
+                        </div>
+                        <!-- <img src="/imagenes/footer-ubicacion.png" alt="llamada"> -->
+                        <!-- <a href="https://goo.gl/maps/mWu8YdsVVKAzAYfe9">
+                            <span class="telefono">Limache 1724, Oficina 510. Viña del Mar</span>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="container derechos-reservados">
+                <h6 class="m-0 p-1">Copyright © 2024 <b>PaginasFast</b>.</h6>
+            </div>
+        </div>
+    </footer>
+    <!--Botón whatsapp-->
+    <!-- <a href="https://api.whatsapp.com/send?phone=56932325496" class="whatsapp" target="_blank"> <i
+            class="fab fa-whatsapp whatsapp-icon"></i></a> -->
+
+
+
+    <!--Script home-->
+    <script src="/librerias/splide/splide.min.js"></script>
+    <script src="/js/home.js"></script>
+
+    <!--Global script-->
+    <script src="/librerias/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+
+
+</body>
+
+</html>
